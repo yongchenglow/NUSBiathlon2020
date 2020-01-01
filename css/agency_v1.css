@@ -4,13 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
- @font-face {
-   font-family: 'Tokyo-Regular';
-   src: url('font/Tokyo-Regular/Tokyo-Regular.eot?#iefix') format('embedded-opentype'),  url('font/Tokyo-Regular/Tokyo-Regular.otf')  format('opentype'),
- 	     url('font/Tokyo-Regular/Tokyo-Regular.woff') format('woff'), url('font/Tokyo-Regular/Tokyo-Regular.ttf')  format('truetype'), url('font/Tokyo-Regular/Tokyo-Regular.svg#Tokyo-Regular') format('svg');
-   font-weight: normal;
-   font-style: normal;
- }
+@font-face {
+ font-family: 'Tokyo-Regular';
+ src: url('font/Tokyo-Regular/Tokyo-Regular.eot?#iefix') format('embedded-opentype'),  url('font/Tokyo-Regular/Tokyo-Regular.otf')  format('opentype'),
+	     url('font/Tokyo-Regular/Tokyo-Regular.woff') format('woff'), url('font/Tokyo-Regular/Tokyo-Regular.ttf')  format('truetype'), url('font/Tokyo-Regular/Tokyo-Regular.svg#Tokyo-Regular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
 
 body {
   overflow-x: hidden;
@@ -90,7 +90,11 @@ body {
   }
 }
 
-
+.intro-font{
+  color:white;
+  font-size: 7rem;
+  font-family: 'Tokyo-Regular';
+}
 
 
 
@@ -248,12 +252,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #C8E3FD;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #C8E3FD;
   text-shadow: none;
 }
 
@@ -316,7 +320,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 180px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
