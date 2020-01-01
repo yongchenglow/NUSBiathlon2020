@@ -21,6 +21,12 @@ body {
   background-color: transparent;
 }
 
+#mainNav .nav-img {
+  height: 80px;
+  margin: -10px 0px;
+}
+
+
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
@@ -47,8 +53,12 @@ body {
   color: white;
 }
 
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+  color: #162549B3;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #162549;
 }
 
 @media (min-width: 992px) {
@@ -58,7 +68,7 @@ body {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #a5a5a5c9;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -71,7 +81,8 @@ body {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #bfbfbf;
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -269,15 +280,15 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
-  color: dimgrey;
+  background-color: #162549CC;
+  border-color: #162549CC;
+  color: #FFFFFFE6;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
-  color: black;
+  background-color: #162549 !important;
+  border-color: #162549 !important;
+  color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -296,7 +307,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: black;
-  background-image: url("../img/background/race_start.jpg");
+  background-image: url("../img/background/Swim_Start.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
