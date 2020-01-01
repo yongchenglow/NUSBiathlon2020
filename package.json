@@ -14,7 +14,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
+    "homepage": "https://nus-biathlon.herokuapp.com",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
         "email": "feedback@startbootstrap.com"
@@ -26,7 +26,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+        "url": "https://github.com/yongchenglow/NUSBiathlon2020"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.8.2",
