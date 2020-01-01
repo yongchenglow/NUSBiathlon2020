@@ -5,12 +5,20 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- for SEO -->
+  <link rel="icon" href="img/logos/NUS_Biathlon_Swim_Run.png">
+  <title>RunNUS - Biggest NUS Run event by NUS Students' Sports Club</title>
+  <meta name="author" content="NUS Biathlon | NUS Students' Sports Club">
   <meta name="description" content="NUS Biathlon is the most anticipated annual swim and run event to promote healthy lifestyle">
   <meta name="keywords" content="NUS Biathlon, NUS Aquathlon, Swim & Run, NUSSSC, NUS Students' Sports Club">
-  <meta name="author" content="NUS Biathlon | NUS Students' Sports Club">
 
-  <title>RunNUS - Biggest NUS Run event by NUS Students' Sports Club</title>
-  <link rel="icon" href="img/logos/NUS_Biathlon_Swim_Run.png">
+  <!-- For Social Media-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nussportsclub.org/nusbiathlon">
+  <meta property="og:image" content="img/logos/NUS_Biathlon_2020.png">
+  <meta property="og:title" content="NUS Biathlon | NUS Students' Sports Club">
+  <meta property="og:description" content="NUS Biathlon is the most anticipated annual swim and run event to promote healthy lifestyle">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,33 +38,28 @@
   <!-- AddEvent script -->
   <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '456069711989197');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=456069711989197&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body id="page-top">
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml            : true,
-        version          : 'v3.3'
-      });
-    };
 
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-  <!-- Your customer chat code -->
-  <div class="fb-customerchat"
-    attribution=setup_tool
-    page_id="165059410217331"
-    theme_color="#0084ff">
-  </div>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
