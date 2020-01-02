@@ -162,39 +162,128 @@ header {
   }
 }
 
-
-p.price-heading{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #162549;
-}
-
-p.price{
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 33px;
-  color: #162549;
-}
-
 .page-section {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .page-section .section-heading {
   font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
   color: #A4D7F9;
-  margin-bottom: 15px;
+  font-size: 1.25rem ;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .page-section .section-subheading {
   font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
   color: #162549;
+  font-size: 	2.25rem;
+  line-height: 	2.75rem;
+  margin-bottom: 10px;
+}
+
+.page-section .section-text {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .page-section .section-subheading {
+    font-size: 	2.5rem;
+    line-height: 	3rem;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .page-section .section-subheading {
+    font-size: 	2.75rem;
+    line-height: 	3.25rem;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-section .section-heading {
+    font-size: 1.5rem ;
+    line-height: 1.75rem;
+    margin-bottom: 15px;
+  }
+
+  .page-section .section-subheading {
+    font-size: 	3rem;
+    line-height: 	3.5rem;
+    margin-bottom: 15px;
+  }
+
+  .page-section .section-text {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 15px;
+  }
+}
+
+.img-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+
+.date {
+  font-family:'Tokyo-Regular';
+  font-size: 4rem;
+  text-align:center;
+  margin-top:-20px;
   margin-bottom: 15px;
+}
+
+.location-time {
+  font-family:'Tokyo-Regular';
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .date {
+    font-size: 7rem;
+    margin-top:-30px;
+  }
+
+  .location-time {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .date {
+    font-size: 8rem;
+    margin-top:-40px;
+  }
+
+  .location-time {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .date {
+    font-size: 9rem;
+    margin-top:-50px;
+  }
+
+  .location-time {
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+    margin-bottom: 50px;
+  }
 }
 
 .category-border {
@@ -205,39 +294,81 @@ p.price{
 
 .page-section .category-heading {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2rem;
+  line-height: 2.5rem;
   color: #162549;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .page-section .category-subheading {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   color: #5E5E5E;
-  margin-bottom: 15px;
-}
-
-.page-section .section-text {
-  font-size: 20px;
-  line-height: 28px;
-  color: #000000;
   margin-bottom: 15px;
 }
 
 p.card-title{
   font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2rem;
+  line-height: 2.5rem;
   color: #162549;
+  margin-bottom: 5px;
 }
 
 p.card-text{
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   color: #5E5E5E;
+}
+
+p.price-heading{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #162549;
+  margin-bottom: 5px;
+}
+
+p.price{
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #162549;
+}
+
+.race-info-text {
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #5E5E5E;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .page-section .category-heading {
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    margin-bottom: 10px;
+  }
+
+  .page-section .category-subheading {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  p.card-title{
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+  }
+
+  p.price{
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+  }
 }
 
 .list-inline-item {
@@ -265,6 +396,13 @@ p.card-text{
   background: #FF6C5F;
 }
 
+.results-col {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .results-text {
   font-weight: 600;
   font-size: 24px;
@@ -283,35 +421,10 @@ p.card-text{
   position:relative;
 }
 
-.race-info-text {
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-  color: #5E5E5E;
-  padding-top: 10px;
-  padding-bottom: 7px;
-}
-
 .warm-gradient-color {
   background: -webkit-linear-gradient(0deg, #FF6C5F 0%, #FFC371 85.05%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.date {
-  font-family:'Tokyo-Regular';
-  font-size: 144px;
-  text-align:center;
-  margin-top:-50px;
-  margin-bottom: 15px;
-}
-
-.location-time {
-  font-family:'Tokyo-Regular';
-  font-size: 36px;
-  line-height: 43px;
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 .zsiq_floatmain{
