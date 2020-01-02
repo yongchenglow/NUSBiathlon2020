@@ -475,10 +475,22 @@ p.price{
   position:absolute;
 }
 
-
 .results-box:hover .results-background{
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -ms-transform: scale(1.1) rotate(180deg); /* IE 9 */
+  -webkit-transform: scale(1.1) rotate(180deg); /* Safari 3-8 */
+  transform: scale(1.1) rotate(180deg);
+  box-shadow: 0 0 11px rgba(33,33,33,.5);
+}
+
+.zoom {
+  transition: transform .3s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  box-shadow: 0 0 11px rgba(33,33,33,.5);
 }
 
 .warm-gradient-color {
