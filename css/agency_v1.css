@@ -74,7 +74,8 @@ h6 {
   color: #162549B3;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #162549;
 }
 
@@ -100,12 +101,14 @@ h6 {
 
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
+    color:white;
   }
 
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: white;
+    color: #162549B3;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
   }
 }
@@ -163,7 +166,7 @@ header {
 }
 
 .page-section {
-  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .page-section .section-heading {
@@ -480,7 +483,7 @@ p.price{
 
 @media (min-width: 768px) {
   section {
-    padding-bottom: 150px;
+    padding-bottom: 3rem;
   }
 }
 

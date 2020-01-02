@@ -27,8 +27,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/agency_v1.css" rel="stylesheet">
+  <!-- Animate on scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -37,6 +37,9 @@
 	<link rel="stylesheet" href="css/theme3_v1.css" type="text/css" media="screen" />
   <!-- AddEvent script -->
   <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency_v1.css" rel="stylesheet">
 
   <!-- Facebook Pixel Code -->
   <script>
@@ -128,29 +131,31 @@
   </header>
 
   <!-- About -->
-  <section class="page-section mt-lg-5 mt-md-5 mt-sm-1 mb-4" id="about">
+  <section class="page-section mt-lg-5 mt-md-5 mt-sm-1 mb-2" id="about">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-sm-6 col-8 text-center">
           <img src="img/logos/NUS_Biathlon_2020.png" alt="NUS Biathlon 2020 Logo" class="img-fluid img-sticky"></img>
         </div>
         <div class="col-sm-6">
-          <div class='section-heading text-md-left text-center'>About Us</div>
-          <div class="section-subheading">The most anticipated annual swim-and-run event</div>
-          <div class="section-text">NUS Biathlon is an annual event organized by the NUS Students’ Sports Club (NUSSSC) to promote a healthy lifestyle amongst the NUS population as well as the public. NUS Biathlon is the first student-organized and student-led inter-varsity Aquathlon event in Singapore.</div>
-          <div class="section-text">This year, NUS Biathlon focuses on attracting beginners to try out this endurance sport and to spark interest in endurance sports in the NUS community, as well as the public.</div>
-          <ul class="list-inline social-buttons text-center text-md-left">
-            <li class="list-inline-item">
-              <a class="social-background" href="https://www.facebook.com/nusbiathlon" target="_blank">
-                <img style="width:16px;padding-bottom:5px;" src="./img/icons/facebook.svg" alt="Facebook Icon">
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="social-background" href="https://instagram.com/nusbiathlon" target="_blank">
-                <img style="width:32px;padding-bottom:5px;" src="./img/icons/instagram.svg" alt="Instagram Icon">
-              </a>
-            </li>
-          </ul>
+          <div class='section-heading text-md-left text-center' data-aos="fade-right">About Us</div>
+          <div class="section-subheading" data-aos="fade-right">The most anticipated annual swim-and-run event</div>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="section-text">NUS Biathlon is an annual event organized by the NUS Students’ Sports Club (NUSSSC) to promote a healthy lifestyle amongst the NUS population as well as the public. NUS Biathlon is the first student-organized and student-led inter-varsity Aquathlon event in Singapore.</div>
+            <div class="section-text">This year, NUS Biathlon focuses on attracting beginners to try out this endurance sport and to spark interest in endurance sports in the NUS community, as well as the public.</div>
+            <ul class="list-inline social-buttons text-center text-md-left">
+              <li class="list-inline-item">
+                <a class="social-background" href="https://www.facebook.com/nusbiathlon" target="_blank">
+                  <img style="width:16px;padding-bottom:5px;" src="./img/icons/facebook.svg" alt="Facebook Icon">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-background" href="https://instagram.com/nusbiathlon" target="_blank">
+                  <img style="width:32px;padding-bottom:5px;" src="./img/icons/instagram.svg" alt="Instagram Icon">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -161,11 +166,15 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="section-heading text-center">Race Details</div>
-          <div class="section-subheading text-center">Be part of NUS Biathlon</div>
-          <div class="warm-gradient-color date">21 Mar 2020</div>
-          <div class="warm-gradient-color location-time">University sports centre | 6.45am</div>
-          <img class="img-fluid mb-5" src="./img/raceDetails/superEarlyBird.jpg" alt="NUS Biathlon Super Early Bird">
+          <div data-aos="fade-right">
+            <div class="section-heading text-center">Race Details</div>
+            <div class="section-subheading text-center">Be part of NUS Biathlon</div>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="500">
+            <div class="warm-gradient-color date">21 Mar 2020</div>
+            <div class="warm-gradient-color location-time">University sports centre | 6.45am</div>
+          </div>
+          <img class="img-fluid mb-5" data-aos="zoom-in" data-aos-delay="700" src="./img/raceDetails/superEarlyBird.jpg" alt="NUS Biathlon Super Early Bird">
         </div>
       </div>
 
@@ -175,7 +184,7 @@
           <div class="category-heading">Novice Race Categories</div>
           <div class="category-subheading">Lack experience? Don’t worry, we’ve got you covered with our novice race categories.</div>
           <div class="card-deck">
-           <div class="card category-border">
+           <div class="card category-border" data-aos="fade-up">
              <div class="card-body">
                <p class="card-title">Novice Individual</p>
                <p class="card-text">Perfect for beginners who wish to get a taste of competing in our swim-and-run event!</p>
@@ -208,7 +217,7 @@
                <a class="btn btn-watermelon btn-xl" target="_blank" href="https://bit.ly/nusbiathlon2020">Sign Me Up!</a>
              </div>
            </div>
-           <div class="card category-border">
+           <div class="card category-border" data-aos="fade-up">
              <div class="card-body">
                <p class="card-title">Novice Relay (4pax)</p>
                <p class="card-text">Form a group of 4 to participate in this low-intensive race category. 2 members will swim 200m each while the other 2 members will run 2.5km each.</p>
@@ -251,7 +260,7 @@
           <div class="category-heading">Advanced Race Categories</div>
           <div class="category-subheading">For our professional and returning participants who wish to display their competitive spirits and challenge themselves respectively.</div>
           <div class="card-deck">
-           <div class="card category-border">
+           <div class="card category-border" data-aos="fade-up">
              <div class="card-body">
                <p class="card-title">Sprint Individual</p>
                <p class="card-text">Our highly anticipated race category that will take you through the hilly grounds and deep waters of NUS.</p>
@@ -284,7 +293,7 @@
                <a class="btn btn-watermelon btn-xl" target="_blank" href="https://bit.ly/nusbiathlon2020">Sign Me Up!</a>
              </div>
            </div>
-           <div class="card category-border">
+           <div class="card category-border" data-aos="fade-up">
              <div class="card-body">
                <p class="card-title">Sprint Relay (2pax)</p>
                <p class="card-text">Not confident in swimming? Don’t worry, pair up with a fellow swimmer buddy in this race category. Works vice versa too! </p>
@@ -326,14 +335,14 @@
   <!-- Results -->
   <section class="page-section" id="registration">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="zoom-in">
         <div class="col-lg-12 text-center">
           <div class='section-heading'>Results</div>
           <div class="section-subheading">View your achivements here</div>
         </div>
       </div>
       <div class="row text-center justify-content-center">
-        <div class="col-lg-3 col-md-6 results-col">
+        <div class="col-lg-3 col-md-6 results-col" data-aos="fade-up">
           <div class="results-background">
             <div class="results-text" style="bottom:52px;margin-left:20px;">
               <a class="text-white" href="#" target="_blank">
@@ -342,7 +351,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 results-col">
+        <div class="col-lg-3 col-md-6 results-col" data-aos="fade-up">
           <div class="results-background">
             <div class="results-text" style="bottom:50px;margin-left:40px;">
               <a class="text-white" href="#" target="_blank">
@@ -351,7 +360,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 results-col">
+        <div class="col-lg-3 col-md-6 results-col" data-aos="fade-up">
           <div class="results-background">
             <div class="results-text" style="bottom:52px;margin-left:20px;">
               <a class="text-white" href="#" target="_blank">
@@ -360,7 +369,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 results-col">
+        <div class="col-lg-3 col-md-6 results-col" data-aos="fade-up">
           <div class="results-background">
             <div class="results-text" style="bottom:52px;margin-left:45px;">
               <a class="text-white" href="#" target="_blank">
@@ -376,38 +385,38 @@
   <!-- Team -->
   <section class="page-section mt-3" id="team">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="zoom-in">
         <div class="col-lg-12 text-center">
           <div class='section-heading'>Team</div>
           <div class="section-subheading mb-5">NUS Biathlon 2020 Organising Committee</div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
           <div class="team-member">
             <img class="mx-auto rounded-lg" src="img/team/NUS_Biathlon_Project_Directors.jpeg" alt="">
             <div class="committee-name">Project Directors</div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
           <div class="team-member">
             <img class="mx-auto rounded-lg" src="img/team/NUS_Biathlon_Programmes_Logistics.jpeg" alt="">
             <div class="committee-name">Programmes & Logistics</div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
           <div class="team-member">
             <img class="mx-auto rounded-lg" src="img/team/NUS_Biathlon_Admin_Finance.jpeg" alt="">
             <div class="committee-name">Admin & Finance</div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
           <div class="team-member">
             <img class="mx-auto rounded-lg" src="img/team/NUS_Biathlon_Marketing.jpeg" alt="">
             <div class="committee-name">Marketing</div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
           <div class="team-member">
             <img class="mx-auto rounded-lg" src="img/team/NUS_Biathlon_Publicity.jpeg" alt="">
             <div class="committee-name">Publicity</div>
@@ -422,21 +431,24 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12" style="background-color: #FF6C5F;padding:15px 0px">
-          <div class="text-center sponsor-heading text-white">Be a partner of NUS Biathlon</div>
-          <div class="text-center sponsor-subheading text-white">Contact our Buisness Managers to craft a customised marketing experience for your brand</div>
-          <hr style="border-top: 3px solid #FFC371; margin-left: 30px; margin-right: 30px;"/>
-          <a href="mailto:marketing.biathlon@nussportsclub.org?subject=Buisness Enquiry" target="_blank">
-            <div class="marketing-contacts text-center text-white"><img class="contact-icon mr-0" src="./img/icons/mail_thick.svg"> marketing.biathlon@nussportsclub.org</div>
-          </a>
-          <a href="tel:+6593447055">
-            <div class="marketing-contacts text-center text-white"><img class="contact-icon" src="./img/icons/phone.svg">Lee Kiat Kai +65 9344 7055</div>
-          </a>
-          <a href="tel:+6591269027">
-            <div class="marketing-contacts text center text-white"><img class="contact-icon" src="./img/icons/phone.svg">Jasline Tan +65 9126 9027</div>
-          </a>
-          <a href="tel:+6581824795">
-            <div class="marketing-contacts text-center text-white"><img class="contact-icon" src="./img/icons/phone.svg">Lim Shi Jie +65 8182 4759</div>
-          </a>
+          <div class="text-center sponsor-heading text-white" data-aos="zoom-in">Be a partner of NUS Biathlon</div>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center sponsor-subheading text-white">Contact our Buisness Managers to craft a customised marketing experience for your brand</div>
+            <hr style="border-top: 3px solid #FFC371; margin-left: 30px; margin-right: 30px;"/>
+
+            <a href="mailto:marketing.biathlon@nussportsclub.org?subject=Buisness Enquiry" target="_blank">
+              <div class="marketing-contacts text-center text-white"><img class="contact-icon mr-0" src="./img/icons/mail_thick.svg"> marketing.biathlon@nussportsclub.org</div>
+            </a>
+            <a href="tel:+6593447055">
+              <div class="marketing-contacts text-center text-white"><img class="contact-icon" src="./img/icons/phone.svg">Lee Kiat Kai +65 9344 7055</div>
+            </a>
+            <a href="tel:+6591269027">
+              <div class="marketing-contacts text center text-white"><img class="contact-icon" src="./img/icons/phone.svg">Jasline Tan +65 9126 9027</div>
+            </a>
+            <a href="tel:+6581824795">
+              <div class="marketing-contacts text-center text-white"><img class="contact-icon" src="./img/icons/phone.svg">Lim Shi Jie +65 8182 4759</div>
+            </a>
+          </div>
         </div>
       </div>
       <!-- <div class="row">
@@ -445,7 +457,7 @@
           <div class="section-subheading mb-7">Thank you for making NUS Biathlon a success!</div>
         </div>
       </div> -->
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="600">
         <div class="row mt-3 mt-lg-5 mb-3 justify-content-center">
           <div class="col-8 col-sm-7 col-md-6 col-lg-5" align="center">
             <div class="service-heading text-center mb-3">A Project of</div>
@@ -503,7 +515,11 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
@@ -511,19 +527,20 @@
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/contact_me.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/agency_v1.js"></script>
+  <!-- Google Map Hover -->
   <script src="js/googleMapHover.js"></script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140884872-1"></script>
+  <!-- Animate On Scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-140884872-1');
+    AOS.init({
+      delay:100,
+      once: false,
+    });
   </script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency_v1.js"></script>
 
 </body>
 
