@@ -14,7 +14,8 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
