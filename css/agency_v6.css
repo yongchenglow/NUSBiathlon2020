@@ -682,6 +682,12 @@ ul.social-buttons li a {
 .entitlement-heading {
   font-size: 1.75rem;
   font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.entitlement-subheading {
+  font-size: 1.25rem;
+  margin-bottom: 0px;
 }
 
 .zoom {
