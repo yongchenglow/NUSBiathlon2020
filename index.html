@@ -68,6 +68,7 @@
 <body id="page-top">
   <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
+  <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="uh0bb4CP"></script> -->
   <script>
     window.fbAsyncInit = function() {
       FB.init({
@@ -120,7 +121,7 @@
             <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
           </li>
           <li class="nav-item" style="margin:auto">
-            <a id="register" class="btn btn-primary btn-l zoom text-uppercase js-scroll-trigger infinite" target="_blank" href="https://bit.ly/nusbiathlon2020">Register</a>
+            <a id="register" class="btn btn-primary btn-l zoom text-uppercase js-scroll-trigger infinite" target="_blank" href="http://bit.ly/biathlon2021registration">Register</a>
           </li>
         </ul>
       </div>
@@ -163,8 +164,12 @@
   <section class="page-section mt-lg-5 mt-md-5 mt-sm-1 mb-2" id="about">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-sm-6 col-8 text-center">
-          <img src="img/logos/NUS_Biathlon_2021.png" alt="NUS Biathlon 2021 Logo" class="img-fluid img-sticky"></img>
+        <div class="col-md-6 col-10 text-center">
+          <img src="img/logos/NUS_Biathlon_2021.png" alt="NUS Biathlon 2021 Logo" class="img-fluid d-none d-md-block"></img>
+          <video style="width:100%" class="img-sticky" controls autoplay muted>
+            <source src="./video/PROMO.MOV">
+            Your browser does not support HTML5 video.
+          </video>
         </div>
         <div class="col-sm-6">
           <div class='section-heading text-md-left text-center' data-aos="fade-right">About Us</div>
@@ -212,7 +217,7 @@
       </div>
 
       <!-- Novice -->
-      <div class="row mb-5">
+      <div class="row mb-5 text-center">
         <div class="col">
           <div class="category-heading">Novice Race</div>
           <div class="category-subheading">Lack experience? Don’t worry, we’ve got you covered with our novice race</div>
@@ -220,7 +225,6 @@
            <div class="card category-border text-center" data-aos="fade-up">
              <div class="card-body">
                <p class="card-title">Novice Individual</p>
-               <p class="card-text">Perfect for beginners who wish to get a taste of competing in our swim-and-run event at a location of your choosing!</p>
                <div class="mb-2">
                  <span class="d-inline-block swim-background rounded-circle mr-2">
                    <img style="width:38px;padding:5px;" src="./img/icons/swimming.svg" alt="Swim Icon">
@@ -255,7 +259,7 @@
       </div>
 
       <!-- Sprint -->
-      <div class="row mb-5">
+      <div class="row mb-5 text-center">
         <div class="col">
           <div class="category-heading">Advanced Race</div>
           <div class="category-subheading">For our professional and returning participants who wish to display their competitive spirits and challenge themselves respectively.</div>
@@ -263,7 +267,6 @@
            <div class="card category-border text-center" data-aos="fade-up">
              <div class="card-body">
                <p class="card-title">Sprint Individual</p>
-               <p class="card-text">Already experienced? No worries, we have an advanced race category just for you.</p>
                <div class="mb-2">
                  <span class="d-inline-block swim-background rounded-circle mr-2">
                    <img style="width:38px;padding:5px;" src="./img/icons/swimming.svg" alt="Swim Icon">
@@ -297,12 +300,31 @@
         </div>
       </div>
 
-      <!-- Novice -->
-      <div class="row mb-5">
+      <!-- Power Duo -->
+      <div class="row mb-5 text-center">
         <div class="col">
           <div class="category-heading">Power Duo Race</div>
-          <div class="category-subheading">Looking to embark on this event with a friend? Enter the Power Duo Race, where you not only get to run and swim, but also partake in 5 amazing challenges. Submit your images to us, and upload it onto instagram to stand a chance to win a lucky draw!</div>
-          <div class="card-deck">
+          <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-8 col-xl-7">
+              <video style="width:100%" controls autoplay muted>
+                <source src="./video/PDR.MP4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+          <div class="category-subheading">Introducing the all new category, Power Duo Race! Anyone and everyone is welcome to take part so grab along your significant other, close friend or someone you'd like to participate in this race with! It is a great opportunity to foster closer bonds through swimming and running together. Not only that, there will be 5 AMAZING challenges lined up in store! Ranging from Tiktok to photo challenges, participants are required to complete the various missions together and submit all the necessary screenshots to NUSync thereafter and stand a chance to be part of a lucky draw! So hurry and sign up now! Description of how to complete the race will be in the images down below! More detailed information about the race and challenges can be found in the race booklet.</div>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-fluid" src="./img/raceDetails/PDR_1.png" alt="Power Duo Image 1">
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="./img/raceDetails/PDR_2.png" alt="Power Duo Image 2">
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="./img/raceDetails/PDR_3.png" alt="Power Duo Image 3">
+            </div>
+          </div>
+          <div class="card-deck mt-2">
             <div class="card category-border text-center" data-aos="fade-up">
               <div class="card-body">
                 <p class="card-title">Power Duo Race</p>
@@ -440,13 +462,10 @@
           <div class="mb-1">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="doc/NUS_Biathlon_2020_Rules_and_Regulations.pdf" target="_blank">Rules</a>
+                <a href="doc/NUS_Biathlon_2021_R&R.pdf" target="_blank">Rules</a>
               </li>
               <li class="list-inline-item">
-                <a href="doc/NUS_Biathlon_2020_Indemnity_Form.pdf" target="_blank">Indemnity</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="doc/NUS_Biathlon_2020_FAQ.pdf" target="_blank">FAQ</a>
+                <a href="doc/NUS_Biathlon_2021_FAQ.pdf" target="_blank">FAQ</a>
               </li>
               <!-- <li class="list-inline-item">
                 <a href="doc/RunNUS_FAQ_2019.pdf" target="_blank">FAQ</a>
